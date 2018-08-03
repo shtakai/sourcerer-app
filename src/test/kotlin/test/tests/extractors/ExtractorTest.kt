@@ -325,4 +325,29 @@ class ExtractorTest : Spek({
             assertExtractsImport(import, line, PLpgSQLExtractor)
         }
     }
+
+    given("Elixir") {
+        it("Elixir comment") {
+            var lines = listOf("# use Ecto.Repo")
+            var actualLineImports = ElixirExtractor.extractImports(lines)
+            actualLineImports.forEach {
+                assertMapsNothing(it, Lang.ELIXIR, ElixirExtractor)
+            }
+        }
+        it("Elixir use") {
+            var line = " use Ecto.Repo"
+            val import = "Ecto"
+            assertExtractsImport(import, line, ElixirExtractor)
+        }
+        it("Elixir import") {
+            var line = " import Ecto.Repo"
+            val import = "Ecto"
+            assertExtractsImport(import, line, ElixirExtractor)
+        }
+        it("Elixir require") {
+            var line = " require Ecto.Repo"
+            val import = "Ecto"
+            assertExtractsImport(import, line, ElixirExtractor)
+        }
+    }
 })
