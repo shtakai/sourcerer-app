@@ -100,7 +100,7 @@ We love contributions! Check out the [Contribution guide](https://github.com/sou
 [![4](https://sourcerer.io/fame/sergey48k/sourcerer-io/sourcerer-app/images/4)](https://sourcerer.io/fame/sergey48k/sourcerer-io/sourcerer-app/links/4)
 [![5](https://sourcerer.io/fame/sergey48k/sourcerer-io/sourcerer-app/images/5)](https://sourcerer.io/fame/sergey48k/sourcerer-io/sourcerer-app/links/5)
 [![6](https://sourcerer.io/fame/sergey48k/sourcerer-io/sourcerer-app/images/6)](https://sourcerer.io/fame/sergey48k/sourcerer-io/sourcerer-app/links/6)
-[![7](https://sourcerer.io/fame/sergey48k/sourcerer-io/sourcerer-app/images/7)](https://sourcerer.io/fame/sergey48k/sourcerer-io/sourcerer-app/links/7)
+[![7](https://sourcerer.io/fame/sergey48k/sourcerer-io/sourcerer-app/images/7)](https://sourcerer.io/fame/sergey48k/sourcerer-io/sourcerer-app/links/7) [![GuardRails badge](https://badges.production.guardrails.io/shtakai/sourcerer-app.svg)](https://www.guardrails.io)
 
 Build
 =====
